@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftMarket - Handmade Crafts Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">Craft<span>Market</span></div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for handmade crafts...">
+                    <button>🔍</button>
+                </div>
+                <div class="user-actions">
+                    <a href="index.html" class="icon-btn">❤️ <span>Wishlist</span></a>
+                    <a href="addToCart\index.html" class="icon-btn">🛒 <span>Cart</span></a>
+                    <a href="LOGIN\LoginIndex.html" class="icon-btn">👤 <span>Account</span></a>
+
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="new-arrivals.html">New Arrivals</a></li>
+                    <li><a href="best-sellers.html">Best Sellers</a></li>
+                    <li><a href="crafters.html">Crafters</a></li>
+                    <li><a href="sell-your-craft.html">Sell Your Crafts</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Handcrafted with Love</h1>
+                <p>Discover unique handmade crafts created by talented artisans from around the world.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="container">
+        <h2 class="section-title">Explore Categories</h2>
+        <div class="categories">
+            <div class="category-card">
+                <img src="jwelery.avif" alt="Jewelry">
+                <h3>Jewelry</h3>
+            </div>
+            <div class="category-card">
+                <img src="home.jpg" alt="Home Decor">
+                <h3>Home Decor</h3>
+            </div>
+            <div class="category-card">
+                <img src="pottery.jpg" alt="Pottery">
+                <h3>Pottery</h3>
+            </div>
+            <div class="category-card">
+                <img src="textile.webp" alt="Textiles">
+                <h3>Textiles</h3>
+            </div>
+            <div class="category-card">
+                <img src="wood.jpg" alt="Woodwork">
+                <h3>Woodwork</h3>
+            </div>
+            <div class="category-card">
+                <img src="paper.webp" alt="Paper Crafts">
+                <h3>Paper Crafts</h3>
+            </div>
+            <div class="category-card">
+                <img src="candle.jpg" alt="Candles & Soaps">
+                <h3>Candles & Soaps</h3>
+            </div>
+            <div class="category-card">
+                <img src="painting.avif" alt="Art & Paintings">
+                <h3>Art & Paintings</h3>
+            </div>
+            <div class="category-card">
+                <img src="bangle.jpg" alt="Bangles">
+                <h3>Bangles</h3>
+            </div>
+            <div class="category-card">
+                <img src="woolen.jpg" alt="Woolens">
+                <h3>Woolens</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="container">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="products">
+            <div class="product-card" data-id="1" data-name="Handmade Ceramic Vase" data-price="59.99" data-image="https://via.placeholder.com/280x220">
+                <img src="ceramic_vase.webp" alt="Ceramic Vase">
+                <button class="wishlist-btn" data-id="1">♡</button>
+                <div class="product-details">
+                    <h3 class="product-title">Handmade Ceramic Vase</h3>
+                    <p class="product-creator">By Ceramic Artistry</p>
+                    <p class="product-price">$59.99</p>
+                    <div class="product-actions">
+                        <button class="btn sm-btn add-to-cart" data-id="1">Add to Cart</button>
+                        <button class="btn sm-btn buy-now" data-id="1">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="2" data-name="Macrame Wall Hanging" data-price="45.50" data-image="https://via.placeholder.com/280x220">
+                <img src="micrame.jpg" alt="Macrame Wall Hanging">
+                <button class="wishlist-btn" data-id="2">♡</button>
+                <div class="product-details">
+                    <h3 class="product-title">Macrame Wall Hanging</h3>
+                    <p class="product-creator">By String & Knots</p>
+                    <p class="product-price">$45.50</p>
+                    <div class="product-actions">
+                        <button class="btn sm-btn add-to-cart" data-id="2">Add to Cart</button>
+                        <button class="btn sm-btn buy-now" data-id="2">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="3" data-name="Handcrafted Wooden Bowl" data-price="78.00" data-image="https://via.placeholder.com/280x220">
+                <img src="wooden bowl.avif" alt="Wooden Bowl">
+                <button class="wishlist-btn" data-id="3">♡</button>
+                <div class="product-details">
+                    <h3 class="product-title">Handcrafted Wooden Bowl</h3>
+                    <p class="product-creator">By Forest Creations</p>
+                    <p class="product-price">$78.00</p>
+                    <div class="product-actions">
+                        <button class="btn sm-btn add-to-cart" data-id="3">Add to Cart</button>
+                        <button class="btn sm-btn buy-now" data-id="3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="4" data-name="Hand-Poured Soy Candle" data-price="24.99" data-image="https://via.placeholder.com/280x220">
+                <img src="soycandle.jpg" alt="Soy Candle">
+                <button class="wishlist-btn" data-id="4">♡</button>
+                <div class="product-details">
+                    <h3 class="product-title">Hand-Poured Soy Candle</h3>
+                    <p class="product-creator">By Wax & Wick</p>
+                    <p class="product-price">$24.99</p>
+                    <div class="product-actions">
+                        <button class="btn sm-btn add-to-cart" data-id="4">Add to Cart</button>
+                        <button class="btn sm-btn buy-now" data-id="4">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="5" data-name="Hand-Knitted Wool Scarf" data-price="37.50" data-image="https://via.placeholder.com/280x220">
+                <img src="knitted scarf.webp" alt="Wool Scarf">
+                <button class="wishlist-btn" data-id="5">♡</button>
+                <div class="product-details">
+                    <h3 class="product-title">Hand-Knitted Wool Scarf</h3>
+                    <p class="product-creator">By Warm Woolens</p>
+                    <p class="product-price">$37.50</p>
+                    <div class="product-actions">
+                        <button class="btn sm-btn add-to-cart" data-id="5">Add to Cart</button>
+                        <button class="btn sm-btn buy-now" data-id="5">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="6" data-name="Handmade Silver Earrings" data-price="69.00" data-image="https://via.placeholder.com/280x220">
+                <img src="earring.webp" alt="Silver Earrings">
+                <button class="wishlist-btn" data-id="6">♡</button>
+                <div class="product-details">
+                    <h3 class="product-title">Handmade Earrings</h3>
+                    <p class="product-creator">By Silver Artisan</p>
+                    <p class="product-price">$69.00</p>
+                    <div class="product-actions">
+                        <button class="btn sm-btn add-to-cart" data-id="6">Add to Cart</button>
+                        <button class="btn sm-btn buy-now" data-id="6">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I've been buying handmade crafts from CraftMarket for over a year now. The quality and uniqueness of each item is amazing. I always receive compliments on my purchases!"</p>
+                    <p class="testimonial-author">- Sarah J.</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"As a crafter myself, I appreciate the platform CraftMarket provides. It's easy to use, and I've connected with customers who truly value handmade items."</p>
+                    <p class="testimonial-author">- Michael T.</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The customer service is exceptional. When I had an issue with my order, they resolved it quickly and professionally. I'll definitely be shopping here again!"</p>
+                    <p class="testimonial-author">- Elena R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <p>Subscribe to our newsletter to receive updates on new artisans, special offers, and craft inspiration.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Sale Items</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Meet the Artisans</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Sell Your Crafts</h3>
+                    <ul>
+                        <li><a href="#">Become a Seller</a></li>
+                        <li><a href="#">Seller Guidelines</a></li>
+                        <li><a href="#">Seller Dashboard</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CraftMarket. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="overlay" id="cart-modal">
+        <div class="modal">
+            <button class="close-modal">&times;</button>
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items" id="cart-items-container">
+                <!-- Cart items will be loaded here by JS -->
+            </div>
+            <div class="cart-summary">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button class="btn" style="width: 100%;">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wishlist Modal -->
+    <div class="overlay" id="wishlist-modal">
+        <div class="modal">
+            <button class="close-modal">&times;</button>
+            <h2>Your Wishlist</h2>
+            <div class="cart-items" id="wishlist-items-container">
+                <!-- Wishlist items will be loaded here by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="button.js"></script>
+</body>
+</html>
