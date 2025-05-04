@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftMarket - Add to Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Cart button -->
+    <header>
+        <div class="user-actions">
+            <button class="icon-btn" id="cart-btn">🛒 <span>Cart</span><div class="badge" id="cart-count">0</div></button>
+        </div>
+    </header>
+
+    <!-- Product Listing -->
+    <section class="products">
+        <div class="product-card" data-id="1" data-name="Handmade Ceramic Vase" data-price="59.99" data-image="https://via.placeholder.com/280x220">
+            <img src="ceramic_vase.webp" alt="Ceramic Vase">
+            <button class="add-to-cart-btn" data-id="1">Add to Cart</button>
+            <div class="product-details">
+                <h3 class="product-title">Handmade Ceramic Vase</h3>
+                <p class="product-price">$59.99</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="2" data-name="Macrame Wall Hanging" data-price="45.50" data-image="https://via.placeholder.com/280x220">
+            <img src="micrame.jpg" alt="Macrame Wall Hanging">
+            <button class="add-to-cart-btn" data-id="2">Add to Cart</button>
+            <div class="product-details">
+                <h3 class="product-title">Macrame Wall Hanging</h3>
+                <p class="product-price">$45.50</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="overlay" id="cart-modal">
+        <div class="modal">
+            <button class="close-modal">&times;</button>
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items" id="cart-items-container"></div>
+            <div class="cart-summary">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button class="btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
